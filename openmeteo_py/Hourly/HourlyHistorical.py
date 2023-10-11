@@ -433,3 +433,13 @@ class HourlyHistorical()  :
             "soil_temperature_100_to_255cm"
             ])
         return self
+
+    def multi(self, list):
+        """
+        Returns the Hourly configuration object 
+        :returns: `Hourly()`
+
+        Selected hourly parameters
+        """
+        self.hourly_params.append_all(list)
+        return self
