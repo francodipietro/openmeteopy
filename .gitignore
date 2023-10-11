@@ -157,4 +157,8 @@ cython_debug/
 .history
 .ionide
 
+# Downloaded files
+*.csv
+*.json
+
 # End
