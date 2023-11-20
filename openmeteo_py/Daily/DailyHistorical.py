@@ -216,3 +216,13 @@ class DailyHistorical():
             "rain_sum"
             ])
         return self
+    
+    def multi(self, list):
+        """
+        Returns the Daily configuration object 
+        :returns: `Daily()`
+
+        Selected daily parameters
+        """
+        self.daily_params.append_all(list)
+        return self
